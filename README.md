@@ -36,24 +36,18 @@ A robust Artificial Neural Network (ANN)-based solution designed to predict whet
 ## 🧪 Model Architecture
 
 ```python
+from keras.models import Sequential
+from keras.layers import Dense
+
 model = Sequential()
 model.add(Dense(16, activation='relu', input_dim=number_of_features))
 model.add(Dense(8, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
-Loss Function: Binary Crossentropy
-Optimizer: Adam
-Metrics: Accuracy
 
----
-
-## 🧱 Tech Stack
-
-- Python
-- TensorFlow / Keras
-- scikit-learn
-- Pandas / NumPy
-- Streamlit
-- TensorBoard
+# Loss Function: Binary Crossentropy
+# Optimizer: Adam
+# Metrics: Accuracy
+```
 
 ---
 
@@ -74,8 +68,18 @@ Metrics: Accuracy
 ```bash
 git clone https://github.com/yourusername/customer-churn-ann.git
 cd customer-churn-ann
+```
 
-bash
-Copy
-Edit
+### 📦 Install Dependencies
+
+```bash
+pip install -r app/requirements.txt
+```
+
+### 🚀 Run the Streamlit App
+
+```bash
 streamlit run app/app.py
+```
+
+---
