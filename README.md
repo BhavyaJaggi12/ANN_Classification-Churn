@@ -44,30 +44,36 @@ Loss Function: Binary Crossentropy
 Optimizer: Adam
 Metrics: Accuracy
 
-## Sample Results
+---
+
+## 🧱 Tech Stack
+
+- Python
+- TensorFlow / Keras
+- scikit-learn
+- Pandas / NumPy
+- Streamlit
+- TensorBoard
+
+---
+
+## 📊 Model Performance
+
 | Epoch | Validation Accuracy | Validation Loss |
 | ----- | ------------------- | --------------- |
 | 1     | 83.42%              | 0.5128          |
 | 2     | 85.27%              | 0.4101          |
 | 3     | **86.35%**          | **0.3425**      |
 
+---
 
-## How to Use
-🔧 Local Setup
-Clone the repository:
+## 🔧 How to Use
 
-bash
-Copy
-Edit
+### 📥 Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/customer-churn-ann.git
 cd customer-churn-ann
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r app/requirements.txt
-Run the Streamlit app:
 
 bash
 Copy
