@@ -52,7 +52,7 @@ Metrics: Accuracy
 | 3     | **86.35%**          | **0.3425**      |
 
 
-How to Use
+## How to Use
 🔧 Local Setup
 Clone the repository:
 
